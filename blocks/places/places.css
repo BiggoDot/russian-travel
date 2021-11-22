@@ -27,6 +27,7 @@
   .places {
     gap: 48px 28px;
     margin-bottom: 73px;
+    grid-template-columns: 1.9fr 2fr;
   }
 }
 
