@@ -1,0 +1,4 @@
+.places__link-container {
+  grid-area: link;
+  align-self: end;
+}

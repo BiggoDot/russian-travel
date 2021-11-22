@@ -1,0 +1,25 @@
+.sights {
+  margin: 0 auto;
+  max-width: 984px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1120px) {
+  .sights {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .sights {
+    max-width: 720px;
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .sights {
+    max-width: 100%;
+    margin-bottom: 66px;
+  }
+}
