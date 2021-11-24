@@ -1,8 +1,7 @@
 .footer {
   margin: 0 auto;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   width: calc(100% - 96px);
-  height: 18px;
   display: flex;
   justify-content: space-between;
 }
@@ -16,7 +15,6 @@
 @media screen and (max-width: 640px) {
   .footer {
     width: calc(100% - 32px);
-    min-height: 310px;
     flex-direction: column;
     align-items: flex-start;
   }

@@ -1,6 +1,6 @@
 .places {
   display: grid;
-  grid-template-columns: 2fr 2.1fr;
+  grid-template-columns: 460px 2fr;
   grid-template-rows: min-content 2fr;
   grid-template-areas:
     "title link"
@@ -20,6 +20,7 @@
 @media screen and (max-width: 1120px) {
   .places {
     gap: 48px 32px;
+    grid-template-columns: 440px 2fr;
   }
 }
 
@@ -27,7 +28,7 @@
   .places {
     gap: 48px 28px;
     margin-bottom: 73px;
-    grid-template-columns: 1.9fr 2fr;
+    grid-template-columns: 340px 2fr;
   }
 }
 
